@@ -10,7 +10,8 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  
+  <link rel="stylesheet" href="reset.css">
+
 </head>
 
 <body>
@@ -49,9 +50,9 @@
       <div class="col-md-4">
         
         </br>
-        <div class="border">
-          <h5>Mars Facts</h5>
-            {{ mars.fact_table}}
+        <div class="card">
+          <h3>Mars Facts</h3>
+            {{ mars.fact_table | safe}}
         </div>
       </div>
     </div>
@@ -63,15 +64,15 @@
     </div>
     </br>
     <div class="row">       
-            {% for hemisphere in mars.hemisphere_images %} 
+            {% for hem in mars.hemisphere_images %} 
               <div class="col-6 border">
               </br>
                     <div>
-                      <img width="512 px" height="512 px" src="{{hemisphere.image_url}}">
+                      <img width="512 px" height="512 px" src="{{hem.image_url}}">
                     </div>
 
                     <div>
-                      <h4> {{hemisphere.title}} </h4>  
+                      <h4> {{hem.title}} </h4>  
                     </div>
             
               </div>

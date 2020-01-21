@@ -65,6 +65,8 @@ def scrape():
     
     mars_fact=tables[0]
     mars_fact=mars_fact.rename(columns={0:"Profile",1:"Value"},errors="raise")
+    mars_fact.set_index("Profile",inplace=True)
+    mars_fact
     
     fact_table=mars_fact.to_html()
     fact_table.replace('\n','')
