@@ -11,3 +11,5 @@ This project is designed to build a web application that scrapes various website
 ## Tool ##
 JavaScript, Python, Chromedriver
 ## Visualization ##
+
+Email:xinlianghuang85@gmail.com
