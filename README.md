@@ -12,5 +12,6 @@ Flask is used to deploy the scraped data to the HTML.
 ## Tool ##
 JavaScript, Python, Chromedriver
 ## Visualization ##
-
+### HTML ###
+<img src="Missions_to_Mars/Images/mars_scrape1.PNG">
 Email:xinlianghuang85@gmail.com
