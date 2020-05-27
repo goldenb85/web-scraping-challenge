@@ -3,7 +3,7 @@
 ## Summary ##
 This project is designed to build a web application that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page.
 Flask is used to deploy the scraped data to the HTML.
-A scrape button is created to scrape Mars-related data from the websites listed below.
+A `Scrape New Data` button is created to scrape Mars-related data from the websites listed below.
 
 ## Data ##
 -[NASA Mars News Site](https://mars.nasa.gov/news/)<br>
