@@ -6,15 +6,15 @@ Flask is used to deploy the scraped data to the HTML.
 A `Scrape New Data` button is created to scrape Mars-related data from the websites listed below.
 
 ## Data ##
--[NASA Mars News Site](https://mars.nasa.gov/news/)<br>
--[JPL Featured Space Image](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars)<br>
--[Mars Weather twitter account](https://twitter.com/marswxreport?lang=en)
--[Mars Facts webpage](https://space-facts.com/mars/)
+--[NASA Mars News Site](https://mars.nasa.gov/news/)<br>
+--[JPL Featured Space Image](https://www.jpl.nasa.gov/spaceimages/?search=&category=Mars)<br>
+--[Mars Weather twitter account](https://twitter.com/marswxreport?lang=en)<br>
+--[Mars Facts webpage](https://space-facts.com/mars/)
 ## Tool ##
 JavaScript, Python, Chromedriver
 ## Visualization ##
 ### HTML ###
-<img src="Missions_to_Mars/Images/mars_scrape1.PNG">
-<img src="Missions_to_Mars/Images/mars_scrape2.PNG">
+<img src="Missions_to_Mars/Images/mars_scrape1.PNG"><br>
+<img src="Missions_to_Mars/Images/mars_scrape2.PNG"><br>
 <img src="Missions_to_Mars/Images/mars_scrape3.PNG">
 Email:xinlianghuang85@gmail.com
